@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="cards" aria-label="Tarjetas giratorias">
+  
+    <!-- Card 1 -->
+    <article class="card">
+      <input id="card1" class="card-toggle visually-hidden" type="checkbox" aria-label="Alternar tarjeta 1" />
+      <label class="card-inner" for="card1" role="button">
+        <div class="card-face card-front">
+          <img class="avatar" src="https://i.pravatar.cc/200?img=32" alt="Avatar de Ada" />
+          <h3 class="title">Ada Lovelace</h3>
+          <p class="subtitle">Pionera de la programación</p>
+        </div>
+        <div class="card-face card-back">
+          <p>
+            Escribió notas sobre la máquina analítica que se consideran
+            el primer algoritmo destinado a ser procesado por una máquina.
+          </p>
+        </div>
+      </label>
+    </article>
+  
+    <!-- Card 2 -->
+    <article class="card">
+      <input id="card2" class="card-toggle visually-hidden" type="checkbox" aria-label="Alternar tarjeta 2" />
+      <label class="card-inner" for="card2" role="button">
+        <div class="card-face card-front">
+          <img class="avatar" src="https://i.pravatar.cc/200?img=12" alt="Avatar de Alan" />
+          <h3 class="title">Alan Turing</h3>
+          <p class="subtitle">Teoría de la computación</p>
+        </div>
+        <div class="card-face card-back">
+          <p>
+            Formalizó conceptos de algoritmo y computación con la
+            máquina de Turing y contribuyó al criptoanálisis en la II Guerra Mundial.
+          </p>
+        </div>
+      </label>
+    </article>
+  
+    <!-- Card 3 -->
+    <article class="card">
+      <input id="card3" class="card-toggle visually-hidden" type="checkbox" aria-label="Alternar tarjeta 3" />
+      <label class="card-inner" for="card3" role="button">
+        <div class="card-face card-front">
+          <img class="avatar" src="https://i.pravatar.cc/200?img=5" alt="Avatar de Grace" />
+          <h3 class="title">Grace Hopper</h3>
+          <p class="subtitle">Compiladores y COBOL</p>
+        </div>
+        <div class="card-face card-back">
+          <p>
+            Popularizó el término “bug” y lideró el desarrollo de
+            compiladores que acercaron la programación al lenguaje humano.
+          </p>
+        </div>
+      </label>
+    </article>
+  
+  </main>
+
+</body>
+</html>
